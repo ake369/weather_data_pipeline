@@ -1,6 +1,6 @@
 Top 5 Cities by Average Temperature (°C)
 city
-London      9.888393
-New York    7.874303
-Tokyo       6.585882
+London      10.268750
+New York     8.711765
+Tokyo        6.408997
 Name: temperature_celsius, dtype: float64
