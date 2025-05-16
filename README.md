@@ -59,9 +59,5 @@ python weather_pipeline.py
 * Date formats are identified using visualizations
 * Key statistics, missing value patterns, and top weather conditions are explored.
 * Visualizations are used for better insight into temperature distributions across cities.
-
-## 6. Additional Explanations
-
 * The pipeline is designed for flexibility, allowing easy modification of the data cleaning process (Just following the specified tasks)
-* The data cleaning step uses a nested function for date standardization, ensuring modularity.
-* The directory structure ensures a clear separation between input data (`./data/`) and output files (`./outputs/`).
+
