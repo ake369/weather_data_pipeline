@@ -60,7 +60,7 @@ def generate_report(df):
 def generate_chart(df):
     avg_temp = df.groupby('city')['temperature_celsius'].mean().sort_values()
     plt.figure(figsize=(12, 8))
-    avg_temp.plot(kind='barh', color='skyblue')
+    avg_temp.plot(kind='bar', color='red')
     plt.title("Average Temperature by City")
     plt.xlabel("Temperature (°C)")
     plt.tight_layout()
